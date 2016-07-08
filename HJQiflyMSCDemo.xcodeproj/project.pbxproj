@@ -15,8 +15,8 @@
 		117E92571D2F57300015A5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E92551D2F57300015A5EB /* LaunchScreen.storyboard */; };
 		117E92621D2F57310015A5EB /* HJQiflyMSCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E92611D2F57310015A5EB /* HJQiflyMSCDemoTests.m */; };
 		117E926D1D2F57310015A5EB /* HJQiflyMSCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E926C1D2F57310015A5EB /* HJQiflyMSCDemoUITests.m */; };
-		117E92801D2F57840015A5EB /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E927C1D2F57840015A5EB /* iflyMSC.framework */; };
-		117E92811D2F57840015A5EB /* libSunFlower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E927F1D2F57840015A5EB /* libSunFlower.a */; };
+		117E92871D2F59C10015A5EB /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E92831D2F59C10015A5EB /* iflyMSC.framework */; };
+		117E92881D2F59C10015A5EB /* libSunFlower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E92861D2F59C10015A5EB /* libSunFlower.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		117E92681D2F57310015A5EB /* HJQiflyMSCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJQiflyMSCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117E926C1D2F57310015A5EB /* HJQiflyMSCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJQiflyMSCDemoUITests.m; sourceTree = "<group>"; };
 		117E926E1D2F57310015A5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		117E927C1D2F57840015A5EB /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
-		117E927E1D2F57840015A5EB /* IFlyFlowerCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFlyFlowerCollector.h; sourceTree = "<group>"; };
-		117E927F1D2F57840015A5EB /* libSunFlower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSunFlower.a; sourceTree = "<group>"; };
+		117E92831D2F59C10015A5EB /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		117E92851D2F59C10015A5EB /* IFlyFlowerCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFlyFlowerCollector.h; sourceTree = "<group>"; };
+		117E92861D2F59C10015A5EB /* libSunFlower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSunFlower.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117E92801D2F57840015A5EB /* iflyMSC.framework in Frameworks */,
-				117E92811D2F57840015A5EB /* libSunFlower.a in Frameworks */,
+				117E92871D2F59C10015A5EB /* iflyMSC.framework in Frameworks */,
+				117E92881D2F59C10015A5EB /* libSunFlower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		117E923B1D2F57300015A5EB = {
 			isa = PBXGroup;
 			children = (
-				117E927A1D2F57840015A5EB /* HJQiflyMSC */,
+				117E92821D2F59C10015A5EB /* iflyMSCSDK */,
 				117E92461D2F57300015A5EB /* HJQiflyMSCDemo */,
 				117E92601D2F57310015A5EB /* HJQiflyMSCDemoTests */,
 				117E926B1D2F57310015A5EB /* HJQiflyMSCDemoUITests */,
@@ -148,28 +148,20 @@
 			path = HJQiflyMSCDemoUITests;
 			sourceTree = "<group>";
 		};
-		117E927A1D2F57840015A5EB /* HJQiflyMSC */ = {
+		117E92821D2F59C10015A5EB /* iflyMSCSDK */ = {
 			isa = PBXGroup;
 			children = (
-				117E927B1D2F57840015A5EB /* iflyMSCSDK */,
-			);
-			path = HJQiflyMSC;
-			sourceTree = "<group>";
-		};
-		117E927B1D2F57840015A5EB /* iflyMSCSDK */ = {
-			isa = PBXGroup;
-			children = (
-				117E927C1D2F57840015A5EB /* iflyMSC.framework */,
-				117E927D1D2F57840015A5EB /* sunflower */,
+				117E92831D2F59C10015A5EB /* iflyMSC.framework */,
+				117E92841D2F59C10015A5EB /* sunflower */,
 			);
 			path = iflyMSCSDK;
 			sourceTree = "<group>";
 		};
-		117E927D1D2F57840015A5EB /* sunflower */ = {
+		117E92841D2F59C10015A5EB /* sunflower */ = {
 			isa = PBXGroup;
 			children = (
-				117E927E1D2F57840015A5EB /* IFlyFlowerCollector.h */,
-				117E927F1D2F57840015A5EB /* libSunFlower.a */,
+				117E92851D2F59C10015A5EB /* IFlyFlowerCollector.h */,
+				117E92861D2F59C10015A5EB /* libSunFlower.a */,
 			);
 			path = sunflower;
 			sourceTree = "<group>";
@@ -452,6 +444,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HJQiflyMSC/iflyMSCSDK",
+					"$(PROJECT_DIR)/iflyMSCSDK",
 				);
 				INFOPLIST_FILE = HJQiflyMSCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -459,6 +452,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HJQiflyMSC/iflyMSCSDK/sunflower",
+					"$(PROJECT_DIR)/iflyMSCSDK/sunflower",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.HanJunQiang.HJQiflyMSCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HJQiflyMSC/iflyMSCSDK",
+					"$(PROJECT_DIR)/iflyMSCSDK",
 				);
 				INFOPLIST_FILE = HJQiflyMSCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -479,6 +474,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HJQiflyMSC/iflyMSCSDK/sunflower",
+					"$(PROJECT_DIR)/iflyMSCSDK/sunflower",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.HanJunQiang.HJQiflyMSCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +546,7 @@
 				117E92731D2F57310015A5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117E92741D2F57310015A5EB /* Build configuration list for PBXNativeTarget "HJQiflyMSCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +555,7 @@
 				117E92761D2F57310015A5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117E92771D2F57310015A5EB /* Build configuration list for PBXNativeTarget "HJQiflyMSCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +564,7 @@
 				117E92791D2F57310015A5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
